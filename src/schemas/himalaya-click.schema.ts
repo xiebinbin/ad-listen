@@ -7,7 +7,7 @@ export class HimalayaClick {
     @Prop({
         required: true,
     })
-    time: Number;
+    time: String;
     @Prop({
         required: true,
         default: '',
@@ -54,27 +54,27 @@ export class HimalayaClick {
         index: true,
         default: '',
     })
-    caid2: string;
+    caid2: String;
     @Prop({
         index: true,
     })
-    task_id: Number;
+    task_id: String;
     @Prop({
         index: true,
     })
-    plan_id: Number;
+    plan_id: String;
     @Prop({
         index: true,
     })
-    material_id: Number;
+    material_id: String;
     @Prop()
     ua?: String;
     @Prop()
     model?: String;
     @Prop()
-    width?: Number;
+    width?: String;
     @Prop()
-    height?: Number;
+    height?: String;
     @Prop()
     wh?: String;
     @Prop()
@@ -90,7 +90,7 @@ export class HimalayaClick {
     })
     callback_status: Boolean;
     @Prop({
-        default: 'https%3A%2F%2Fad.ximalaya.com%2Fad-action%3Fuid%3D348015%26timestamp%3D1583379831565%26ip%3D223.114125.57%260s%3Dandroid%26imei_md5%3D70de186af7950d9a68a48127de9b6e94%26androidid%3Da14119bfd316c37a%26materialid%3D607521%26idfa%3D_IDFA_%26type%3Dact%26invokeid%3D33713',
+        default: '',
     })
     callback_url?: String;
     @Prop({
